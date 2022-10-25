@@ -1,0 +1,777 @@
+{
+  "canEditPackage": false,
+  "capsule": {
+    "name": "deep-equal",
+    "description": "node's assert.deepEqual algorithm",
+    "maintainers": [
+      "substack",
+      "ljharb"
+    ],
+    "dist-tags": {
+      "latest": "2.0.5",
+      "next": "2.0.3"
+    },
+    "lastPublish": {
+      "maintainer": "ljharb",
+      "time": "2020-12-01T21:54:56.583Z"
+    },
+    "types": {
+      "typescript": {
+        "package": "@types/deep-equal"
+      }
+    }
+  },
+  "dependents": {
+    "dependentsCount": 2768,
+    "dependentsTruncated": [
+      "@lotusengine/core",
+      "@oznu/bonjour",
+      "react-move-fork",
+      "array-reduce-prototypejs-fix",
+      "yang2007chun-history",
+      "redux-router-rrtr",
+      "tlnccuwagnf",
+      "buildkite-update-initial-step",
+      "is-match",
+      "jef",
+      "react-grid-layout-stable-15",
+      "mongoose-adventure",
+      "offer-schedule-check-safe",
+      "what-changed",
+      "minimal-immutable",
+      "@mcph/jojen",
+      "sameroof",
+      "react-update-in",
+      "sol-unit",
+      "ag-magic-model",
+      "property-manager",
+      "react-helmet-itemprop",
+      "http-assert",
+      "recursive-combinator",
+      "update-in",
+      "inventory",
+      "evidence",
+      "level-switchboard",
+      "level-places",
+      "fiddle",
+      "palo-express",
+      "react-grid-layout-stable-14",
+      "react-lazy-cache",
+      "diff-list",
+      "obj-list-diff",
+      "one-level-object-diff",
+      "@mapd/react-grid-layout",
+      "hackedvoxels-inventory",
+      "hackedvoxels-itempile",
+      "@koba04/redux-router",
+      "point-simple-router",
+      "tsb",
+      "hydstra-import-service",
+      "redux-router-immutable",
+      "utile",
+      "@robotlolita/siren",
+      "react-grid-layout-2",
+      "@joearasin/redux-form",
+      "midi-port-holder",
+      "jsoql"
+    ]
+  },
+  "downloads": [
+    {
+      "downloads": 13986658,
+      "label": "2021-10-25 to 2021-10-31"
+    },
+    {
+      "downloads": 13270868,
+      "label": "2021-11-01 to 2021-11-07"
+    },
+    {
+      "downloads": 13716240,
+      "label": "2021-11-08 to 2021-11-14"
+    },
+    {
+      "downloads": 14097251,
+      "label": "2021-11-15 to 2021-11-21"
+    },
+    {
+      "downloads": 12684807,
+      "label": "2021-11-22 to 2021-11-28"
+    },
+    {
+      "downloads": 14303506,
+      "label": "2021-11-29 to 2021-12-05"
+    },
+    {
+      "downloads": 14014556,
+      "label": "2021-12-06 to 2021-12-12"
+    },
+    {
+      "downloads": 13855328,
+      "label": "2021-12-13 to 2021-12-19"
+    },
+    {
+      "downloads": 10526416,
+      "label": "2021-12-20 to 2021-12-26"
+    },
+    {
+      "downloads": 7296553,
+      "label": "2021-12-27 to 2022-01-02"
+    },
+    {
+      "downloads": 11699168,
+      "label": "2022-01-03 to 2022-01-09"
+    },
+    {
+      "downloads": 14184591,
+      "label": "2022-01-10 to 2022-01-16"
+    },
+    {
+      "downloads": 14210052,
+      "label": "2022-01-17 to 2022-01-23"
+    },
+    {
+      "downloads": 14617981,
+      "label": "2022-01-24 to 2022-01-30"
+    },
+    {
+      "downloads": 14609967,
+      "label": "2022-01-31 to 2022-02-06"
+    },
+    {
+      "downloads": 15479635,
+      "label": "2022-02-07 to 2022-02-13"
+    },
+    {
+      "downloads": 15504488,
+      "label": "2022-02-14 to 2022-02-20"
+    },
+    {
+      "downloads": 14510341,
+      "label": "2022-02-21 to 2022-02-27"
+    },
+    {
+      "downloads": 14572094,
+      "label": "2022-02-28 to 2022-03-06"
+    },
+    {
+      "downloads": 14783228,
+      "label": "2022-03-07 to 2022-03-13"
+    },
+    {
+      "downloads": 14932695,
+      "label": "2022-03-14 to 2022-03-20"
+    },
+    {
+      "downloads": 15066834,
+      "label": "2022-03-21 to 2022-03-27"
+    },
+    {
+      "downloads": 15502211,
+      "label": "2022-03-28 to 2022-04-03"
+    },
+    {
+      "downloads": 15012339,
+      "label": "2022-04-04 to 2022-04-10"
+    },
+    {
+      "downloads": 14256060,
+      "label": "2022-04-11 to 2022-04-17"
+    },
+    {
+      "downloads": 13916060,
+      "label": "2022-04-18 to 2022-04-24"
+    },
+    {
+      "downloads": 14508732,
+      "label": "2022-04-25 to 2022-05-01"
+    },
+    {
+      "downloads": 12810121,
+      "label": "2022-05-02 to 2022-05-08"
+    },
+    {
+      "downloads": 14079093,
+      "label": "2022-05-09 to 2022-05-15"
+    },
+    {
+      "downloads": 14504188,
+      "label": "2022-05-16 to 2022-05-22"
+    },
+    {
+      "downloads": 13979714,
+      "label": "2022-05-23 to 2022-05-29"
+    },
+    {
+      "downloads": 13868634,
+      "label": "2022-05-30 to 2022-06-05"
+    },
+    {
+      "downloads": 14131668,
+      "label": "2022-06-06 to 2022-06-12"
+    },
+    {
+      "downloads": 14029474,
+      "label": "2022-06-13 to 2022-06-19"
+    },
+    {
+      "downloads": 13976484,
+      "label": "2022-06-20 to 2022-06-26"
+    },
+    {
+      "downloads": 13876584,
+      "label": "2022-06-27 to 2022-07-03"
+    },
+    {
+      "downloads": 12856690,
+      "label": "2022-07-04 to 2022-07-10"
+    },
+    {
+      "downloads": 13407042,
+      "label": "2022-07-11 to 2022-07-17"
+    },
+    {
+      "downloads": 11913064,
+      "label": "2022-07-18 to 2022-07-24"
+    },
+    {
+      "downloads": 14277953,
+      "label": "2022-07-25 to 2022-07-31"
+    },
+    {
+      "downloads": 14058290,
+      "label": "2022-08-01 to 2022-08-07"
+    },
+    {
+      "downloads": 14189975,
+      "label": "2022-08-08 to 2022-08-14"
+    },
+    {
+      "downloads": 13860945,
+      "label": "2022-08-15 to 2022-08-21"
+    },
+    {
+      "downloads": 14088675,
+      "label": "2022-08-22 to 2022-08-28"
+    },
+    {
+      "downloads": 13571487,
+      "label": "2022-08-29 to 2022-09-04"
+    },
+    {
+      "downloads": 13264344,
+      "label": "2022-09-05 to 2022-09-11"
+    },
+    {
+      "downloads": 14163483,
+      "label": "2022-09-12 to 2022-09-18"
+    },
+    {
+      "downloads": 13749843,
+      "label": "2022-09-19 to 2022-09-25"
+    },
+    {
+      "downloads": 13904777,
+      "label": "2022-09-26 to 2022-10-02"
+    },
+    {
+      "downloads": 12830605,
+      "label": "2022-10-03 to 2022-10-09"
+    },
+    {
+      "downloads": 12969477,
+      "label": "2022-10-10 to 2022-10-16"
+    },
+    {
+      "downloads": 13559997,
+      "label": "2022-10-17 to 2022-10-23"
+    }
+  ],
+  "files": {
+    "noContentCode": "NOORG"
+  },
+  "ghapi": "https://api.github.com/repos/inspect-js/node-deep-equal",
+  "isStarred": false,
+  "linkingAllowedForPackage": false,
+  "package": "deep-equal",
+  "packageLinkingCallToActionHref": null,
+  "packageUrl": "/package/deep-equal",
+  "packageVersion": {
+    "author": {
+      "name": "James Halliday",
+      "avatars": {
+        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci83YzVhMDAyMzY2ZTEzNmE4NDEzYzc4NDVmOTgzOThhZD9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.6n6hCpFwocaSok8djIwzLVSthQHbcAaung8SKqJaRPs",
+        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci83YzVhMDAyMzY2ZTEzNmE4NDEzYzc4NDVmOTgzOThhZD9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.HIW7p4d2_4I-NHoFMucy3xNC40H0e7s3cg2-iF9upPI",
+        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci83YzVhMDAyMzY2ZTEzNmE4NDEzYzc4NDVmOTgzOThhZD9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ass_3-jgVawcjH6PgojtOgzm21b8QbC8J15WnO7_NQc"
+      }
+    },
+    "description": "node's assert.deepEqual algorithm",
+    "homepage": "https://github.com/inspect-js/node-deep-equal#readme",
+    "repository": "https://github.com/inspect-js/node-deep-equal",
+    "keywords": [
+      "equality",
+      "equal",
+      "compare"
+    ],
+    "dependencies": {
+      "call-bind": "^1.0.0",
+      "es-get-iterator": "^1.1.1",
+      "get-intrinsic": "^1.0.1",
+      "is-arguments": "^1.0.4",
+      "is-date-object": "^1.0.2",
+      "is-regex": "^1.1.1",
+      "isarray": "^2.0.5",
+      "object-is": "^1.1.4",
+      "object-keys": "^1.1.1",
+      "object.assign": "^4.1.2",
+      "regexp.prototype.flags": "^1.3.0",
+      "side-channel": "^1.0.3",
+      "which-boxed-primitive": "^1.0.1",
+      "which-collection": "^1.0.1",
+      "which-typed-array": "^1.1.2"
+    },
+    "devDependencies": {
+      "@ljharb/eslint-config": "^17.3.0",
+      "aud": "^1.1.3",
+      "auto-changelog": "^2.2.1",
+      "eslint": "^7.14.0",
+      "has-symbols": "^1.0.1",
+      "has-typed-arrays": "^1.0.0",
+      "nyc": "^10.3.2",
+      "object.getownpropertydescriptors": "^2.1.1",
+      "safe-publish-latest": "^1.1.4",
+      "semver": "^6.3.0",
+      "tape": "^5.0.1"
+    },
+    "maintainers": [
+      {
+        "name": "substack",
+        "avatars": {
+          "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9kNGEyZjEyY2VhZTNiN2YyMTFiNjYxNTc2ZDIyYmZiOT9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.SWR5Vuj8IZi0hyt45Chu53JtxHuq7QLlXGrkh_W5_uw",
+          "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9kNGEyZjEyY2VhZTNiN2YyMTFiNjYxNTc2ZDIyYmZiOT9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.rfe5e2oQoHK2tWyCzCU27bFf4yFjQIVS7ZF8JKdSGEI",
+          "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9kNGEyZjEyY2VhZTNiN2YyMTFiNjYxNTc2ZDIyYmZiOT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.LGoB2fIlYBJQsbZMSHknjh0qb2fcOZjiK6YvA9YoqDE"
+        }
+      },
+      {
+        "name": "ljharb",
+        "avatars": {
+          "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.jMgyhYZKWwoRUmFabvUwOg-aWQdx9pFI3RrDVDKMGFM",
+          "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.G_K822-SA3AtEgMH9jsQo4rSH50DXyFLYcSsXJUxK38",
+          "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.JI1cjj8e_wxpYMUZFx9ccAqNJhlZsnU3HuOfd9fO3DA"
+        }
+      }
+    ],
+    "funding": {
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "name": "deep-equal",
+    "license": "MIT",
+    "version": "2.0.5",
+    "versions": [],
+    "deprecations": []
+  },
+  "packument": {
+    "author": {
+      "name": "James Halliday",
+      "avatars": {
+        "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci83YzVhMDAyMzY2ZTEzNmE4NDEzYzc4NDVmOTgzOThhZD9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.6n6hCpFwocaSok8djIwzLVSthQHbcAaung8SKqJaRPs",
+        "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci83YzVhMDAyMzY2ZTEzNmE4NDEzYzc4NDVmOTgzOThhZD9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.HIW7p4d2_4I-NHoFMucy3xNC40H0e7s3cg2-iF9upPI",
+        "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci83YzVhMDAyMzY2ZTEzNmE4NDEzYzc4NDVmOTgzOThhZD9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.ass_3-jgVawcjH6PgojtOgzm21b8QbC8J15WnO7_NQc"
+      }
+    },
+    "description": "node's assert.deepEqual algorithm",
+    "homepage": "https://github.com/inspect-js/node-deep-equal#readme",
+    "repository": "https://github.com/inspect-js/node-deep-equal",
+    "distTags": {
+      "latest": "2.0.5",
+      "next": "2.0.3"
+    },
+    "keywords": [
+      "equality",
+      "equal",
+      "compare"
+    ],
+    "maintainers": [
+      {
+        "name": "substack",
+        "avatars": {
+          "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9kNGEyZjEyY2VhZTNiN2YyMTFiNjYxNTc2ZDIyYmZiOT9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.SWR5Vuj8IZi0hyt45Chu53JtxHuq7QLlXGrkh_W5_uw",
+          "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9kNGEyZjEyY2VhZTNiN2YyMTFiNjYxNTc2ZDIyYmZiOT9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.rfe5e2oQoHK2tWyCzCU27bFf4yFjQIVS7ZF8JKdSGEI",
+          "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9kNGEyZjEyY2VhZTNiN2YyMTFiNjYxNTc2ZDIyYmZiOT9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.LGoB2fIlYBJQsbZMSHknjh0qb2fcOZjiK6YvA9YoqDE"
+        }
+      },
+      {
+        "name": "ljharb",
+        "avatars": {
+          "small": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTUwJmRlZmF1bHQ9cmV0cm8ifQ.jMgyhYZKWwoRUmFabvUwOg-aWQdx9pFI3RrDVDKMGFM",
+          "medium": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTEwMCZkZWZhdWx0PXJldHJvIn0.G_K822-SA3AtEgMH9jsQo4rSH50DXyFLYcSsXJUxK38",
+          "large": "/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci8yN2Y1ZWI0NDRlMmQ2MTY1OWU5ZmRlMTQ4NWRiYWI5Nz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.JI1cjj8e_wxpYMUZFx9ccAqNJhlZsnU3HuOfd9fO3DA"
+        }
+      }
+    ],
+    "funding": {
+      "type": "github",
+      "url": "https://github.com/sponsors/ljharb"
+    },
+    "name": "deep-equal",
+    "license": "MIT",
+    "version": "2.0.5",
+    "versions": [
+      {
+        "version": "2.0.5",
+        "date": {
+          "ts": 1606859696583,
+          "rel": "2 years ago"
+        },
+        "dist": {
+          "integrity": "sha512-nPiRgmbAtm1a3JsnLCf6/SLfXcjyN5v8L1TXzdCmHrXJ4hx+gW/w1YCcn7z8gJtSiDArZCgYtbao3QqLm/N1Sw==",
+          "shasum": "55cd2fe326d83f9cbf7261ef0e060b3f724c5cb9",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-2.0.5.tgz",
+          "fileCount": 20,
+          "unpackedSize": 74471,
+          "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfxruxCRA9TVsSAnZWagAADX0P/Ahk9lx3SS0wfcmnC5df\nmfR2hhHK9fnxnlZ7BGAko5xbP77gqiAOZjR7Dx5wIY2yXF1ROMi7OzCYi+ky\nOEjhp3szx6iwo8AMLsP2JtHbrcVIF/nHYRKsStohtQXm+aXLcJxLNrdLp/xh\nCFlVgHhNTTOWqjmBhv8jyHVXzFmKpFQU5sxltEojyJYK2cW7p7VGNK+BuNR+\nwjjt29tDEAgPJdcT7zNjGh0AlFaSMLfQqBgvjLZ2LyeHq/d3PPtwXnhIfOl9\nw1Knwv1ef1bBRyVZ+GWFvB1XS8c/H1TFK2eTASIMvsSSUWD3I9EqGpw2Lp1a\ndGgSdl+NJB4BRcZvktlcxgi767oxe0+sf2XKwkBKRDdGhGkCP7pWHIVRgQdl\n5mLBBr+VqWZolpX/ha5tPuKjzrEcbKmwVKp2QwcwHrQdFr/xGm/42KUeFKtI\nCaVjm0YUUL6TSS5z9q8sg0zi53V9fNR2XwU4JWOc/8bGCM8RWKUu5jitJp4X\n77dy67ftX70XgnuiHw05KeMARo5cKuwX1ubr84RslwG3ZmueC6nGmw5gwUzy\nO683uVUth4zXnIcNSa6PbT160juwBYMIZQ601kDMqMV3cTvza8goDeH2Nqmg\nBadvgZrPQIhcFVYrhMuLVpg22gqif/iUdwJYA6WukThUYdejxE0nx/YmNrlh\norsO\r\n=L5Lf\r\n-----END PGP SIGNATURE-----\r\n",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEQCIBRKFIkZjJq3rAQUy2RaU1RAzb1IwhNfw4Bb7n+Hx+QHAiB56XnDsj/qU4Ru2rg8v8+qrwRaYnZGogr0WT3ujsYBDQ=="
+            }
+          ]
+        }
+      },
+      {
+        "version": "2.0.4",
+        "date": {
+          "ts": 1601612556888,
+          "rel": "2 years ago"
+        },
+        "dist": {
+          "integrity": "sha512-BUfaXrVoCfgkOQY/b09QdO9L3XNoF2XH0A3aY9IQwQL/ZjLOe8FQgCNVl1wiolhsFo8kFdO9zdPViCPbmaJA5w==",
+          "shasum": "6b0b407a074666033169df3acaf128e1c6f3eab6",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-2.0.4.tgz",
+          "fileCount": 14,
+          "unpackedSize": 67599,
+          "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfdqsNCRA9TVsSAnZWagAA+zIP/0iFSlvF2VapBrzoBzXb\nrBjENpN/rUaqyR4QEzOzMH0fjxoRP7/nRTjISZe7wNMb9FQuHCTV+cJVNhrv\nhQzRIT9WdcUEAF70mZdcNTNU+nHGRQ7gSronKfmklk2KZCiMUOxsX+VnRnhf\nnLa19wZ4xGvkD25KIATuMKYJ3bWYZE0+03ofVKcXxpgYTUd/cCBN8ebebFvT\nb9TBW0tLiP8NJpRO7yKp0HblKjjo8LMwCtJWa42VCuahCjNQ5JY6mFtlOf2X\nG7+VjTGoQN1ch89jN+4pVd6iTPbf9YnXYgjcpoXxZALUXExosmY/4RwqVzws\n79mggSFKtyjfW6ycXeCplBWFOYU/QrhmIDjMQu0iuVPevwyih6e7L1Tby5Pz\nBCmuoaKnoed7aaKaXn9m+tqPQa4yId6c0s6Yp6YcDO3oZ5zNQEmtbp3rD7j6\n7XE0azs9QymEoWIipGoCoXwVKs4CleIgvByu7HHKtXrMVFa536sN0P2m/UhY\nqsXr3b8PdAnGzsK3FvP/aHHXG5VEevzgM3mOC4DXdO/493OmT79juJZbc+Ir\nmLTIrKaCn1Z0L44zLsjkiLDFU0tG4gZW2X/H+MOWoNh0kavH+Fp7PUD0LI1G\n8XswYdrxIcfFakSqjDaMH7I6hwUTA+1PShqK/OKTkiw8SFOkDGCaRJ8Ck9q8\nDbKf\r\n=F1Lw\r\n-----END PGP SIGNATURE-----\r\n",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEYCIQC+P+FyNY7HlbX5rJqgWYEUrYhXrdSDvNuaWPJ5iTjBiAIhAIsNW6rVnZvT1S5B1a3dA6GBy+5yIG/zfbwpkeFGhZiW"
+            }
+          ]
+        }
+      },
+      {
+        "version": "2.0.3",
+        "date": {
+          "ts": 1587708698843,
+          "rel": "3 years ago"
+        },
+        "dist": {
+          "integrity": "sha512-Spqdl4H+ky45I9ByyJtXteOm9CaIrPmnIPmOhrkKGNYWeDgCvJ8jNYVCTjChxW4FqGuZnLHADc8EKRMX6+CgvA==",
+          "shasum": "cad1c15277ad78a5c01c49c2dee0f54de8a6a7b0",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-2.0.3.tgz",
+          "fileCount": 16,
+          "unpackedSize": 65915,
+          "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeooMbCRA9TVsSAnZWagAA0s0P/1Tgz89/yVZQNNIfemrq\n71X4LVBQnxoqQzGLOL++thOeG060B0c0oVCklMl1cg5W3zkE8nrmr+aZ/J/t\nhL9uCktnHeDAJGqhwQ9TtQbJ/FbN7Z+Iz9qEe6ZVwyIZi9l7lt6qxu5Ym8IY\nAzeg7Uf9Rg3BQzD5Y8kF6nHlicFxWAcRntNDVY5tNmYi9ebVLXY+o1VuQn6X\nG710yCoBsfD9LjTJUKQiphcsgmWgWZy9Nk+RnWOQld/dfq1qvfkuF5AQ0UJ8\nTiD9N0Zvv2GvROlRZUcbpEZaXfuI7zih8hn5bRleE/z2pIRTrWeUM0wjNNa7\nbZl8DIqU9mU2fHXbcdCZeaO3Tm4fV/WoDZ4LZJ2rb+PDBf/xbPuid60fMexv\n2+4n50ivDu03xxAyOSkuW4oyrKuUK/v8cwvHlqRLm4loWeQBlDYSuhGbV1GC\nzdno47krxdsJeMrmbPjaVwg+joBTwDyou/OzwHe2Ibp09HnHmBOJEZ7MQB8C\nK7zEdOQT8ssgnhMTe8ZK4J9Lha+WfFvgDl5E8L4fV8lEteUcrJzbRx0IqFGJ\nsIAfXyuPG39MTFZel2hcLEEZqeRDdFnNdZhq8p8ajOBZlWhqmyBPNxyhXBvK\nuKaMbRXzj0qadJkuNT4fuQmjCdJKsoKe6n61Mxd0TS9j8hP/no/mcT5eG1II\na+q9\r\n=M6gZ\r\n-----END PGP SIGNATURE-----\r\n",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEUCIGzV8/INNVVdlm0fE3luGvt4d+Zw5VWQBskh9rhdP1aZAiEAh2T86GCtR+Hvakk4fIukT/f5MykgWhvnbQghQpUT9yM="
+            }
+          ]
+        }
+      },
+      {
+        "version": "2.0.2",
+        "date": {
+          "ts": 1585725494359,
+          "rel": "3 years ago"
+        },
+        "dist": {
+          "integrity": "sha512-kX0bjV7tdMuhrhzKPEnVwqfQCuf+IEfN+4Xqv4eKd75xGRyn8yzdQ9ujPY6a221rgJKyQC4KBu1PibDTpa6m9w==",
+          "shasum": "e68291e245493ae908ca7190c1deea57a01ed82b",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-2.0.2.tgz",
+          "fileCount": 14,
+          "unpackedSize": 64958,
+          "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJehEA2CRA9TVsSAnZWagAAROkQAIHdo41ek37IWIXMcbQI\n6/lMcSK4m18G7hB1ryOhzu40XoXfL7FiYDCtUcvdkQleaTcfTqKQXkFAp+TZ\nushTrItJ/a7+ccorrTuOrc56soKbcxcEQNv+CWi2Ny7PfvHFtRVmRRP+1CKk\n8Ril0i6QiZ9aU4maYpGwVWJu/7+Bbp/pLcheeN47dOD3Mqj8DPw5VeWfReT5\nU8G3BY5G0rKTASyngi2arwFAto0fWG7XNwHwkVwvnDNI1CyuZuo1l2uRT67J\nhXVArKLH/gNSu8EPg02ssJaMtEJaIfTYMN62tCfUphoQC8PfcwkTrVbOUQQR\nWbh0jpqGi6P11so9Tg8hi3l25u+edYznHxMGqWExY1nNuZ0j00LLXouGIci0\nZ8ezEfMsNDXx2KW7efU88aFDFxXo4STvV3S5rJy3Bc/6GGio6m7Knnw3FxA4\nosLWoDM6/L81PwKBLFtAy4B683tc/u7mh8Ag4GaiGvZSdZPitxF1er6Z4Y/X\nEhuau0jbrfGzI/rZj2LvhZMMUeVhQvjFmCTR+QdYL8K/sXsAQaqhkCuNIjyK\njEJMYCEJ/7il0HdO+AFGgA7R1hRpDnWjZGpGnPRbMyQplyQKtG+1kYEZS0qy\n5Zk1Vq0raB82R5ySzpvjHsRm6puqviUdb7IgKjt2T4xcT9wIorL97hcLlp4c\nhHCE\r\n=rtlE\r\n-----END PGP SIGNATURE-----\r\n",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEUCIAxmll4iEok2AJOD5reKEjXRRfR2Bckrs+A+xyFI1dE2AiEAxxZ0iPIXjlETPaz5F7YtzNPB/uQxZCnSxqyHLMESj8k="
+            }
+          ]
+        }
+      },
+      {
+        "version": "2.0.1",
+        "date": {
+          "ts": 1575872545201,
+          "rel": "3 years ago"
+        },
+        "dist": {
+          "integrity": "sha512-7Et6r6XfNW61CPPCIYfm1YPGSmh6+CliYeL4km7GWJcpX5LTAflGF8drLLR+MZX+2P3NZfAfSduutBbSWqER4g==",
+          "shasum": "fc12bbd6850e93212f21344748682ccc5a8813cf",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-2.0.1.tgz",
+          "fileCount": 11,
+          "unpackedSize": 53653,
+          "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd7eghCRA9TVsSAnZWagAAiwIP/3zHahQJBXVU9ZJVNIay\n/ARzUiVgqRlWJFhIJfob4VvXwjIFSJOjcWZBlNgNnEJoYupBfFJwJZyY97n9\nrqi7YtVrl/l1KW6d8LmI3Mc0dKv6fKHaYg90jNhyjKfAb3s70CJJ3s/Bx1fB\nNVxieoCyn9NWciX56OYlIvhNWfgDV/DQNf2HvJngo4ugCCELxcaYXmaJ4Ex3\nM80DJVOiS1/KO8LCUmhQTtzyOLlLtwyrGfyxWUxQRMZotMbws/ZEFe828NWr\nknyjMH/TK8QRtQ4YXJJRFCJjR9xOdTxgIJrtThtOG93d3h6Cmxrh9oKGwqvh\n6Nc2s0nFtJxUthgkelaOfM78T3x7lK8VdAWqdyWGmvLv90NMViUgBq1/ORKa\ns7fAXRAGxtj9T9BDGpPGfSg9EkkYssZRU5HHmkUPD/9he/HOnRcrPujMaoo4\nHwpK0x5Z1MQY/9zUGTCZuq/p9xb8mNriQw0GvtattVNuXkoSS99WMv0hEnPU\njDidZJzg3DfClYx1Rrv04s6nexhwxBbaeHDWuW4dM4fgc+fON8M+ZvvefqJW\n06/KQiw6YA6RiPPEd4u0lEJadRDQKwQH53Cz9ATybQFKH39vuYSlbxPKte6Z\nNPdsO0P5J5Xppfe5QwOpWmt+bvVBmuO9JYkA7jEyICY1EMJGSfsiqUkbwMUL\nIwC/\r\n=m/Yb\r\n-----END PGP SIGNATURE-----\r\n",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEUCIQCTGQJ4N9tI9Z2X3d+Kns8zq6S4sOomznOh8SJ6m84TLgIgLEpZRbtDpORph+9vIn0zTpKpep/JUX3UFu1/xVoI/3w="
+            }
+          ]
+        }
+      },
+      {
+        "version": "1.1.1",
+        "date": {
+          "ts": 1573590072351,
+          "rel": "3 years ago"
+        },
+        "dist": {
+          "integrity": "sha512-yd9c5AdiqVcR+JjcwUQb9DkhJc8ngNr0MahEBGvDiJw8puWab2yZlh+nkasOnZP+EGTAP6rRp2JzJhJZzvNF8g==",
+          "shasum": "b5c98c942ceffaf7cb051e24e1434a25a2e6076a",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-1.1.1.tgz",
+          "fileCount": 12,
+          "unpackedSize": 26384,
+          "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdyxQ4CRA9TVsSAnZWagAAv+AP+weArKrZAaxlVcIgMlsi\n7WKBt2xzQrp+vei93GwLnBlutPEN1kuJ4UWTsV1mfS/s8MAHRhi5XuXOXS/l\nMswzTaAd63FUrBEpVFmUv4d4gFlV4qAKozEt/fE6A//LDpr6/RoeUVsWdtlu\nOiEn7dTsothIb8yf/FxCwivk7Vu+QA/JxKLYuAiX44xbG6b20fBVi+8wXzbJ\nWF2PILj0wrOFf5wn4ybsmC7QtFjehGti0EruiPzA6luoe6UeqND/ZDfxxrzw\nBz4v1jXY63BeDWyQYTecfAszkXu+kznruS4C31OxG9I5g93h2m552zZBWHjn\n4+2UNoh9xMkGgVqAo94pOF2xa3TZSZlJAeMc+hLEt65y5aZZ8eil3ynBqyJb\nidzz30j++zDN5v54ZuoVTlAhh30i+Pib2sGFrpgiuysscA20Sc4ch+6leoiJ\n9gR/+6OvLoMKzf+2T8E97lFfIe8Iwyi7SHIB6u5SwrMd1CCiN1VmPzH0jq+F\n5YS5oZSU3gbHfYQ/sEseGWUQNqnK9c0JuXwVhmuIWBAxg8U87RrFOjG4M5Mc\nPOdyZzlSCOGCmgVQ+HBvxH7jZGdM/4g3I2Hyu7+ybJ4ATdCLxi5NHUq7KzxI\nEjx06NOARGAIH7MUtkPrqDb3+XyS0e0UXQbPGHhRk52EdtLOlSEJ26e+fqij\nedwu\r\n=avCO\r\n-----END PGP SIGNATURE-----\r\n",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEUCIQD4K9yhzYMUIC5YYq7fTGJoDoYk9vtv6V0AKldaO7qI/AIgRDY+tEFbeP1ge4UCz7MEnSMa1REZCB4adFLGtBWBIhc="
+            }
+          ]
+        }
+      },
+      {
+        "version": "1.1.0",
+        "date": {
+          "ts": 1566970940711,
+          "rel": "3 years ago"
+        },
+        "dist": {
+          "integrity": "sha512-ZbfWJq/wN1Z273o7mUSjILYqehAktR2NVoSrOukDkU9kg2v/Uv89yU4Cvz8seJeAmtN5oqiefKq8FPuXOboqLw==",
+          "shasum": "3103cdf8ab6d32cf4a8df7865458f2b8d33f3745",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-1.1.0.tgz",
+          "fileCount": 12,
+          "unpackedSize": 25392,
+          "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdZhQ9CRA9TVsSAnZWagAA8ukP/R/S/Xq8/fH3oZVEKfEn\nJKtrK/5ZrJw4jLl5ASI8s8trOgXArGRgyu8qdWH4lZk9/g2eiogrMZeujkzN\n6S6PVs9xNE9PYU7oOfOcY0aHF5cwDhOC453QSYTZGbj9VkCmS0Ez1WpIldwf\nDdPnxXFejBzesOOa/zYkRRRHtdBq/jauHz0K+KOXEgXODMJa2vRoLn9HJD1P\ngnwtsW6judAX8Q9qakDRX0Y28u+Ax8dMjnE9Dz5NeBcGR0nJ1ALgiUG9wyjN\nqaCl4cyoEwmVk+exCbIZHn6VgDWodo/JzQmTJbV5Wjn0ctzJa/NK7Tce9JHJ\nLh7x4TPZliRSDosbLMW994K/HgI0Xbz1fiilRGNdNkG5/ZV99tzTmfm8fhYP\nGZrr6jTo5Vzwu0YS55YHt95c5vxlKKuMFeyM0AvpKgggYQbGvXn+lCR+P31l\nZv6sg6UaTG9AeaeiG65JXPMwAWkeoLezgOc0YlqWF3tSWnR43r9qJILuyp+L\nhacNC7nQhapImJ35K2yrx0NndJ+V27DIY+3uXyKmpvBMnpVCEXBObGB+rklu\n9BNtq+uZF6MIYoLk/GrQ8wizQA2b0neerRktqkaWW5gWeSl3u4ey4GvfSi80\nJWyWHHn4nbkJkDcjNmVgytbvCQqGGlR4CQeBj5m0MUoSFLFABVRn/GZszVCa\nKkh8\r\n=Piz6\r\n-----END PGP SIGNATURE-----\r\n",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEYCIQDkxYNbGPnrg9rp2sGcpNouCmFHyA+MMlpHcF0loU8s5wIhANMtK43odHrKNE4STDUHix3NGlKvrEdfCqz3VgYwMDIi"
+            }
+          ]
+        }
+      },
+      {
+        "version": "1.0.1",
+        "date": {
+          "ts": 1440882148562,
+          "rel": "7 years ago"
+        },
+        "dist": {
+          "shasum": "f5d260292b660e084eff4cdbc9f08ad3247448b5",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-1.0.1.tgz",
+          "integrity": "sha512-bHtC0iYvWhyaTzvV3CZgPeZQqCOBGyGsVV7v4eevpdkLHfiSrXUdBG+qAuSz4RI70sszvjQ1QSZ98An1yNwpSw==",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEUCIQDJyx+iPkMWnYBOhUAQutcektHxV4ls9YVe5k58d3Q9LgIgPXeDf5xex5Q0TzjG3F8PsnlFXdrpLIb47or0qf8nAIg="
+            }
+          ]
+        }
+      },
+      {
+        "version": "1.0.0",
+        "date": {
+          "ts": 1423333658585,
+          "rel": "8 years ago"
+        },
+        "dist": {
+          "shasum": "d4564f07d2f0ab3e46110bec16592abd7dc2e326",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-1.0.0.tgz",
+          "integrity": "sha512-jAJ/YpGYX9qUM0ZMv7FWuz4JlECyma+QhYzFecyqGweO1MNyyzIi5eRPZTXgaCkra7jjxTt03AEeNp+7e1GJ3A==",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEQCIB2XXJAqdwmN0mTbQQ9cpffan+n7aerJhSjOLAH8AfREAiBSBnv3LvAYnyD9DB/w2kFFqpasij0kZLVUW1AM8KXxGQ=="
+            }
+          ]
+        }
+      },
+      {
+        "version": "0.2.2",
+        "date": {
+          "ts": 1423333629674,
+          "rel": "8 years ago"
+        },
+        "dist": {
+          "shasum": "84b745896f34c684e98f2ce0e42abaf43bba017d",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-0.2.2.tgz",
+          "integrity": "sha512-FXgye2Jr6oEk01S7gmSrHrPEQ1ontR7wwl+nYiZ8h4SXlHVm0DYda74BIPcHz2s2qPz4+375IcAz1vsWLwddgQ==",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEYCIQC+Fw66UkiF43PzGiQq+7h6bT4dr+Ea0Fig8+s57khO2AIhAPXmGG3BWCQH/kdtrM9ARs0nslUOFuoZx3iIytqS7sIZ"
+            }
+          ]
+        }
+      },
+      {
+        "version": "0.2.1",
+        "date": {
+          "ts": 1391033128806,
+          "rel": "9 years ago"
+        },
+        "dist": {
+          "shasum": "fad7a793224cbf0c3c7786f92ef780e4fc8cc878",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-0.2.1.tgz",
+          "integrity": "sha512-m+FbkTWIPrb/qgd/v/A1ZcLDyS0sIvlCEOWPTaHaK3GM6SY71VZ/mP4YDKNquKBrkS7m3HRCO5+tLhsjeMVKxA==",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEYCIQCbf9Ww//GhV0X9TTIgHwNfhlcsVf+nGZGSgPlB1itaTQIhAKK4YrzonKJJ/rrwiUIyXGconmOSlQ0vpN1ZiXmYYwie"
+            }
+          ]
+        }
+      },
+      {
+        "version": "0.2.0",
+        "date": {
+          "ts": 1391033043965,
+          "rel": "9 years ago"
+        },
+        "dist": {
+          "shasum": "81994cd7332efcf72a373e7f2ba490b2763159b5",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-0.2.0.tgz",
+          "integrity": "sha512-iw7hU1n+M8FAjNB/q34dNMg9sGgUZJrCxOhhtyD7nJ9up7YS7Y7V3H48mF9SCvg8g28tN70HGiMHwtWH4XDRbg==",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEYCIQCGbF1JYl+2n2bsBqckoHA6Pm7z2vT+gGfc8uhBI+MAgAIhAOjx4jPw7kdqpGfGBmc+BoeTPlW6aNt/AzRkmfN/nVyv"
+            }
+          ]
+        }
+      },
+      {
+        "version": "0.1.2",
+        "date": {
+          "ts": 1387595103548,
+          "rel": "9 years ago"
+        },
+        "dist": {
+          "shasum": "b246c2b80a570a47c11be1d9bd1070ec878b87ce",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-0.1.2.tgz",
+          "integrity": "sha512-rUCt39nKM7s6qUyYgp/reJmtXjgkOS/JbLO24DioMZaBNkD3b7C7cD3zJjSyjclEElNTpetAIRD6fMIbBIbX1Q==",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEUCIQCC++96Xy5GcT3zgzyuo5YAvrcn88LmdtYN8y+lEUAnQgIgRkOWOy68Sj4nG/sjuL3QW8WjvI4Qsm//UfD0YNHwzGI="
+            }
+          ]
+        }
+      },
+      {
+        "version": "0.1.1",
+        "date": {
+          "ts": 1387572018118,
+          "rel": "9 years ago"
+        },
+        "dist": {
+          "shasum": "8a55b7eddb6ea545a55231fe0a405ebf05077e62",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-0.1.1.tgz",
+          "integrity": "sha512-WrYua5j/Ut/If9NkkRf2MLm7y5gevhxjNnbYsWmfmsGSTX/uWnUk02yV4hECuWiNNjPMz2Nv6wwOSOG4RwJoFg==",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEUCIQCGeajwDkWK2VHQ5LadiPy/5OcJCed3MiCE4QaMsr90mQIgfy3/xWgBcprv92CzKQJzn/Ha0zUriJKQCk92+88sqbQ="
+            }
+          ]
+        }
+      },
+      {
+        "version": "0.1.0",
+        "date": {
+          "ts": 1381762344917,
+          "rel": "9 years ago"
+        },
+        "dist": {
+          "shasum": "81fcefc84551d9d67cccdd80e1fced7f355e146f",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-0.1.0.tgz",
+          "integrity": "sha512-44UCTCBjR4F3sWYpivyWb2wEqTLDIS6eUH+s2vhErSEbnqtavvkYFninPmvETeDyBo3Y79peYd5g1mDrkJGifg==",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEUCIQDjNhyYtOIZy9nNK5Ut93EA1nv4JzAcejyfp8dgITJVXQIgUCK+UDU+s41hIZ3b9NgmezUR0QYYI67EB9eBlQ28tww="
+            }
+          ]
+        }
+      },
+      {
+        "version": "0.0.0",
+        "date": {
+          "ts": 1328938934579,
+          "rel": "11 years ago"
+        },
+        "dist": {
+          "shasum": "99679d3bbd047156fcd450d3d01eeb9068691e83",
+          "tarball": "https://registry.npmjs.org/deep-equal/-/deep-equal-0.0.0.tgz",
+          "integrity": "sha512-p1bI/kkDPT6auUI0U+WLuIIrzmDIDo80I406J8tT4y6I4ZGtBuMeTudrKDtBdMJFAcxqrQdx27gosqPVyY3IvQ==",
+          "signatures": [
+            {
+              "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+              "sig": "MEUCIGtsYzX7IJGOmUCj1ktokCJotn9aDwCcoF9N/MdZZdMkAiEA7NgCWAo6D2muBBxE4ok7dbmHttsY6zOZplSH5BsxjzE="
+            }
+          ]
+        }
+      }
+    ],
+    "deprecations": []
+  },
+  "private": false,
+  "isSecurityPlaceholder": false,
+  "starAction": "/package/deep-equal/star",
+  "versionsDownloads": {
+    "0.2.1": 49508,
+    "1.0.1": 2115183,
+    "0.0.0": 32533,
+    "1.0.0": 437,
+    "2.0.4": 16373,
+    "2.0.3": 70052,
+    "0.2.2": 211384,
+    "2.0.1": 16395,
+    "2.0.2": 7379,
+    "1.1.1": 9474994,
+    "1.1.0": 151967,
+    "0.1.2": 98001,
+    "2.0.5": 1315780,
+    "0.1.1": 3,
+    "0.2.0": 3,
+    "0.1.0": 5
+  },
+  "readme": {
+    "data": "<h1>\n<a id=\"user-content-deep-equal\" class=\"anchor\" href=\"#deep-equal\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>deep-equal</h1>\n<p>Node's <code>assert.deepEqual() algorithm</code> as a standalone module.</p>\n<p>This module is around <a href=\"https://gist.github.com/substack/2790507#gistcomment-3099862\">46 times faster</a> than wrapping <code>assert.deepEqual()</code> in a <code>try/catch</code>.</p>\n<p><a href=\"https://travis-ci.org/inspect-js/node-deep-equal\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/d8f935540a2dbd301273379a1f5c91241a3aec3237f0ac7343f77a95a65b6c0d/68747470733a2f2f7365637572652e7472617669732d63692e636f6d2f696e73706563742d6a732f6e6f64652d646565702d657175616c2e706e67\" alt=\"build status\" data-canonical-src=\"https://secure.travis-ci.com/inspect-js/node-deep-equal.png\" style=\"max-width:100%;\"></a></p>\n<h1>\n<a id=\"user-content-example\" class=\"anchor\" href=\"#example\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>example</h1>\n<div class=\"highlight highlight-source-js\"><pre><span class=\"pl-k\">var</span> <span class=\"pl-s1\">equal</span> <span class=\"pl-c1\">=</span> <span class=\"pl-en\">require</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">'deep-equal'</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span>\n<span class=\"pl-smi\">console</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">dir</span><span class=\"pl-kos\">(</span><span class=\"pl-kos\">[</span>\n    <span class=\"pl-s1\">equal</span><span class=\"pl-kos\">(</span>\n        <span class=\"pl-kos\">{</span> <span class=\"pl-c1\">a</span> : <span class=\"pl-kos\">[</span> <span class=\"pl-c1\">2</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">3</span> <span class=\"pl-kos\">]</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">b</span> : <span class=\"pl-kos\">[</span> <span class=\"pl-c1\">4</span> <span class=\"pl-kos\">]</span> <span class=\"pl-kos\">}</span><span class=\"pl-kos\">,</span>\n        <span class=\"pl-kos\">{</span> <span class=\"pl-c1\">a</span> : <span class=\"pl-kos\">[</span> <span class=\"pl-c1\">2</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">3</span> <span class=\"pl-kos\">]</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">b</span> : <span class=\"pl-kos\">[</span> <span class=\"pl-c1\">4</span> <span class=\"pl-kos\">]</span> <span class=\"pl-kos\">}</span>\n    <span class=\"pl-kos\">)</span><span class=\"pl-kos\">,</span>\n    <span class=\"pl-s1\">equal</span><span class=\"pl-kos\">(</span>\n        <span class=\"pl-kos\">{</span> <span class=\"pl-c1\">x</span> : <span class=\"pl-c1\">5</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">y</span> : <span class=\"pl-kos\">[</span><span class=\"pl-c1\">6</span><span class=\"pl-kos\">]</span> <span class=\"pl-kos\">}</span><span class=\"pl-kos\">,</span>\n        <span class=\"pl-kos\">{</span> <span class=\"pl-c1\">x</span> : <span class=\"pl-c1\">5</span><span class=\"pl-kos\">,</span> <span class=\"pl-c1\">y</span> : <span class=\"pl-c1\">6</span> <span class=\"pl-kos\">}</span>\n    <span class=\"pl-kos\">)</span>\n<span class=\"pl-kos\">]</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">;</span></pre></div>\n<h1>\n<a id=\"user-content-methods\" class=\"anchor\" href=\"#methods\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>methods</h1>\n<div class=\"highlight highlight-source-js\"><pre><span class=\"pl-k\">var</span> <span class=\"pl-s1\">deepEqual</span> <span class=\"pl-c1\">=</span> <span class=\"pl-en\">require</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">'deep-equal'</span><span class=\"pl-kos\">)</span></pre></div>\n<h2>\n<a id=\"user-content-deepequala-b-opts\" class=\"anchor\" href=\"#deepequala-b-opts\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>deepEqual(a, b, opts)</h2>\n<p>Compare objects <code>a</code> and <code>b</code>, returning whether they are equal according to a\nrecursive equality algorithm.</p>\n<p>If <code>opts.strict</code> is <code>true</code>, use strict equality (<code>===</code>) to compare leaf nodes.\nThe default is to use coercive equality (<code>==</code>) because that's how\n<code>assert.deepEqual()</code> works by default.</p>\n<h1>\n<a id=\"user-content-install\" class=\"anchor\" href=\"#install\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>install</h1>\n<p>With <a href=\"https://npmjs.org\" rel=\"nofollow\">npm</a> do:</p>\n<pre><code>npm install deep-equal\n</code></pre>\n<h1>\n<a id=\"user-content-test\" class=\"anchor\" href=\"#test\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>test</h1>\n<p>With <a href=\"https://npmjs.org\" rel=\"nofollow\">npm</a> do:</p>\n<pre><code>npm test\n</code></pre>\n",
+    "ref": "readme"
+  },
+  "codeExploreV2": false,
+  "undefined": true,
+  "documentContext": {
+    "readme.data": "readme"
+  },
+  "user": null,
+  "userEmailVerified": null,
+  "csrftoken": "pq_rSYIpaGMoS0ZGcJPByCgUHfu1OxCY7VnCFDnOyjD",
+  "notifications": [],
+  "npmExpansions": [
+    "Nutmeg Pumpkin Macchiato",
+    "Nice Pumpkin Machete",
+    "Nitrogen Pumpkin Mulch",
+    "Nuclear Pumpkin Mayhem",
+    "Nauseating Pumpkin Mush",
+    "Nuanced Pumpkin Mavens",
+    "Ninja Pumpkin Mutants",
+    "Nuclear Pumpkin Mocha",
+    "Nutritious Pumpkin Masses",
+    "Nuclear Pumpkin Mayhem"
+  ]
+}
